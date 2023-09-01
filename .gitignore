@@ -32,6 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
-/settings/message_store_postgres.json
+/settings/message_store_postgres.json*
 
 package-lock.json
