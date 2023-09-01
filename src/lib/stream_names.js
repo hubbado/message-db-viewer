@@ -2,7 +2,7 @@ import { uniq, difference } from "lodash"
 
 const cardinalIDWildcard = (name) => {
   const parts = name.split("+")
-  if (parts.length > 1) {
+  if (parts.length > 1 && name.includes(':command-')) {
     return `${parts[0]}+*`
   }
 
