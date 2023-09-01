@@ -41,7 +41,7 @@ export const SelectedMessage = ({ message, close }) => {
               <dl tw="grid grid-cols-2 gap-3">
                 <div tw="col-span-2">
                   <dt tw="pr-4 text-blue-300">streamName</dt>
-                  <dd tw="mt-1 text-blue-200 truncate text-sm">
+                  <dd tw="mt-1 text-blue-200 text-sm">
                     <DataValue value={message.stream_name} />
                   </dd>
                 </div>
